@@ -1,0 +1,26 @@
+create table current(
+    Name Varchar(30),
+    Vehicle Varchar(15),
+    Slot Varchar(3),
+    Phone Varchar(10),
+    entry datetime default now()
+);
+
+create table come(
+    Name Varchar(30),
+    Vehicle Varchar(15),
+    Slot Varchar(3),
+    Phone Varchar(10),
+    entry datetime default now()
+);
+create table go(
+    Name Varchar(30),
+    Vehicle Varchar(15),
+    Slot Varchar(3),
+    Phone Varchar(10),
+    entry datetime default now()
+);
+
+create table stolen(
+    Vehicle Varchar(15)
+);
