@@ -1,0 +1,31 @@
+.register-main-container{
+    background-color: #e4ecbf;
+}
+.flexContainer{
+    display : flex;
+    width: 100%;
+    padding-left: 2.5%;
+    margin-left: 2.5%;
+    padding-top: 1.5%;
+}
+.conn{
+    align-items: center;
+    width: 100%;
+    padding-left: 30%;
+}
+.headline{
+    padding-left: 20%;
+}
+.bor{
+    background-color: #d3edffc5;
+    border: 2px solid grey;
+    margin: 5px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.item-1{
+    flex: 30%;
+}
+.item-2{
+    flex: 80%;
+}
